@@ -4,9 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RS School. JS/FE Pre-School 2022Q4</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/svg/tse4_mm_bing_net-th.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <link rel="stylesheet" href="style.css">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="section" id="profile">
+                    <h1 class="section-title">Alexey Voronov</h1>
+                    <P><b>Pre Front-End developer</b></P>
+                    <img src="./assets/img/IMG_1502.jpg" alt="my photo" class="avatar">
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <p><b>Location:</b> Warsaw, Poland</p>
+                    <p><b>Phone:</b> +48692410420</p>
+                    <p><b>Telegram:</b> +375291777900</p>
+                    <p><b>Discourt:</b> @Aleksany4#2406</p>
+                    <p><b>Github:</b> Aleksany4</p>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section-title">About me</h2>
+                    <p>I'm 34 years old man from Minsk, Belarus.
+                        A little over a year moved to Warsaw, Poland.
+                        I thought about learning programming about 6 years ago, but something always prevented me, just
+                        at
+                        that
+                        time we were waiting for our daughter.
+                        But now, working in Poland as a courier (quite a physically demanding job).
+                        I realized that I should stop waiting for a miracle, so I started to learn JavaScript with
+                        RSSchool.
+                    </p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                        <li>CorelDraw, Photoshop, Lightroom</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code example</h2>
+                    <xmp> function randomInt() {
+                        const min = 100;
+                        const max = 200;
+                        let rand = Math.floor
+                        (min + Math.random() *
+                        (max + 1 - min));
+                        console.log(rand);
+                        }
+                        randomInt();</xmp>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p>Institute of Entrepreneurial activity
+                        Economics and enterprise management</p>
+                </section>
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <p>Russian - native</p>
+                    <p>Polish - A2/B1</p>
+                    <img src="./assets/img/photo_2022-12-11_11-44-05.jpg" alt="english level" class="english-level">
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <a href="https://github.com/Aleksany4" target="_blank" class="github"><b>Github</b></a>
+                <p class="created">December 2022</p>
+                <a href="https://rs.school/js/">
+                    <img src="./assets/svg/rs_school_js.svg" alt="logo rsschool" class="logo-rsschool">
+                </a>
+            </div>
+        </footer>
 </body>
 </html>
