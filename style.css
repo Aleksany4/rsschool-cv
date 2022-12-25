@@ -25,11 +25,12 @@ body {
 
 .logo-rsschool {
   width: 150px;
-  flex: 1;
+  transition: .3s;
 }
 
 .logo-rsschool:hover {
   cursor: grab;
+  width: 175px;
 }
 
 .container {
@@ -50,14 +51,10 @@ body {
 
 .footer .container {
   display: flex;
-  align-items: flex-end;
-  position: relative;
+  justify-content: space-between;
   padding: 0 50px;
+  margin-top: 10px;
   background-color: seashell;
-}
-
-.created {
-  flex: 1;
 }
 
 html {
@@ -79,7 +76,6 @@ html {
 }
 
 .github {
-  flex: 1;
   color: chocolate;
   font-size: 20px;
   padding: 10px 50px 20px 10px;
@@ -115,4 +111,13 @@ html {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+
+.svg {
+  width: 50px;
+  transition: .5s;
+}
+
+.svg:hover {
+width: 75px;
 }
