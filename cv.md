@@ -1,6 +1,6 @@
 # rsschool-cv
 # Alexey Voronov
-![Photo](../rsschool-cv/assets/img/IMG_1502.jpg "Avatar")
+![Photo](./assets/img/IMG_1502.jpg "Avatar")
 
 ***
 
