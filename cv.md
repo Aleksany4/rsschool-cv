@@ -15,9 +15,11 @@
 
 ## About me:
 I'm 34 years old man from Minsk, Belarus. 
-A little over a year moved to Warsaw, Poland. 
+1.5 years moved to Warsaw, Poland. 
 I thought about learning programming about 6 years ago, but something always prevented me, just at that time we were waiting for our daughter.
 But now, working in Poland as a courier (quite a physically demanding job). I realized that I should stop waiting for a miracle, so I started to learn JavaScript with RSSchool.
+JS/FE PreSchool is completed.
+Start stage 1.
 
 ***
 
@@ -49,7 +51,7 @@ randomInt();
 ## Education: 
 - Institute of Entrepreneurial activity 
 Economics and enterprise management
-
+- ### [«JavaScript/Front-end. Stage 0»] (https://app.rs.school/certificate/jdpg3p6l)
 ***
 
 ### [English Level](https://www.linkedin.com/posts/alexey-voronov-b2989a218_how-does-your-english-compare-take-this-activity-7002600857808613376-zA-9?utm_source=share&utm_medium=member_desktop)
