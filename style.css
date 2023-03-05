@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 14px rgb(0 0 025);
+  float: left;
+  margin-right: 35px;
+}
+
+.english-level {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 14px rgb(0 0 025);
+}
+
+.logo-rsschool {
+  width: 150px;
+  transition: .3s;
+}
+
+.logo-rsschool:hover {
+  cursor: grab;
+  width: 175px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  line-height: 50px;
+  list-style: none;
+  background-color: seashell;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  margin-top: 10px;
+  background-color: seashell;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  padding: 0 12px;
+  line-height: 50px;
+  color: chocolate;
+  font-size: medium;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.nav-link:hover {
+  font-size: large;
+  color: black;
+}
+
+.github {
+  color: chocolate;
+  font-size: 20px;
+  padding: 10px 50px 20px 10px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.github:hover {
+  font-size: 25px;
+  color: black;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  display: block;
+  max-width: 750px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+#contacts {
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.svg {
+  width: 50px;
+  height: 50px;
+  transition: .5s;
+}
+
+.svg:hover {
+width: 75px;
+height: 75px;
+}
+
+.projects {
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+}
+
+.projects:hover {
+  font-size: 110%;
+  color: chocolate;
+}
