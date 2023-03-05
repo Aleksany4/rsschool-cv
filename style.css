@@ -129,3 +129,14 @@ html {
 width: 75px;
 height: 75px;
 }
+
+.projects {
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+}
+
+.projects:hover {
+  font-size: 110%;
+  color: chocolate;
+}
