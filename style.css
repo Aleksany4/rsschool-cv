@@ -12,9 +12,11 @@ body {
 }
 
 .avatar {
-  width: 300px;
+  width: 200px;
   border-radius: 8px;
   box-shadow: 4px 4px 14px rgb(0 0 025);
+  float: left;
+  margin-right: 35px;
 }
 
 .english-level {
@@ -25,11 +27,12 @@ body {
 
 .logo-rsschool {
   width: 150px;
-  flex: 1;
+  transition: .3s;
 }
 
 .logo-rsschool:hover {
   cursor: grab;
+  width: 175px;
 }
 
 .container {
@@ -50,14 +53,10 @@ body {
 
 .footer .container {
   display: flex;
-  align-items: flex-end;
-  position: relative;
+  justify-content: space-between;
   padding: 0 50px;
+  margin-top: 10px;
   background-color: seashell;
-}
-
-.created {
-  flex: 1;
 }
 
 html {
@@ -79,7 +78,6 @@ html {
 }
 
 .github {
-  flex: 1;
   color: chocolate;
   font-size: 20px;
   padding: 10px 50px 20px 10px;
@@ -104,6 +102,10 @@ html {
   padding-top: 20px;
 }
 
+#contacts {
+  padding: 5px;
+}
+
 @media (max-width: 768px) {
   .section {
     width: 100%;
@@ -115,4 +117,26 @@ html {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
+}
+
+.svg {
+  width: 50px;
+  height: 50px;
+  transition: .5s;
+}
+
+.svg:hover {
+width: 75px;
+height: 75px;
+}
+
+.projects {
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+}
+
+.projects:hover {
+  font-size: 110%;
+  color: chocolate;
 }
