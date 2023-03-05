@@ -49,13 +49,13 @@ randomInt();
 ***
 
 ## Experience:
-- ### [Plants] (https://rolling-scopes-school.github.io/aleksany4-JSFEPRESCHOOL2022Q4/plants/)
-- ### [Momentum] (https://rolling-scopes-school.github.io/aleksany4-JSFEPRESCHOOL2022Q4/momentum/)
+### [Plants](https://rolling-scopes-school.github.io/aleksany4-JSFEPRESCHOOL2022Q4/plants/)
+### [Momentum](https://rolling-scopes-school.github.io/aleksany4-JSFEPRESCHOOL2022Q4/momentum/)
 
 ## Education: 
 - Institute of Entrepreneurial activity 
 Economics and enterprise management
-- ### [«JavaScript/Front-end. Stage 0»] (https://app.rs.school/certificate/jdpg3p6l)
+### [Stage 0](https://app.rs.school/certificate/jdpg3p6l)
 ***
 
 ### [English Level](https://www.linkedin.com/posts/alexey-voronov-b2989a218_how-does-your-english-compare-take-this-activity-7002600857808613376-zA-9?utm_source=share&utm_medium=member_desktop)
